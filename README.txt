@@ -19,5 +19,4 @@ Tested using linux and Python3 you may have to remove the shebang which is the v
 in the file if it doesnt run on windows for whatever reason.
 
 
-
-<img src="flowchart.png" width="600" height="600" style=display:inline-block/>
+![Image description](https://github.com/Keeganfn/SWE-HW/edit/main/flowchart.png)
