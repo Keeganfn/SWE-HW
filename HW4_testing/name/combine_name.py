@@ -7,6 +7,7 @@
 
 def combine(first, last):
 
+    #checks that they can be converted to strings
     try:
         first = str(first)
         last = str(last)
@@ -14,6 +15,7 @@ def combine(first, last):
         print("You entered an invalid string, try again")
         return
 
+    #checks that the strings are only letters and combines them 
     if(first.isalpha() and last.isalpha()):
         print(first + " " + last)
         return first + " " + last
