@@ -16,6 +16,13 @@ def div100(number):
     else:
         return False
 
+def div400(number):
+    if(number % 400 == 0):
+        return True
+    else:
+        return False
+
+
 
 if __name__ == "__main__":
    pass 
