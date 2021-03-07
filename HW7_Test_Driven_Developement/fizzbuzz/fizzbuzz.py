@@ -15,7 +15,8 @@ def mult5(number):
     else:
         return False 
     
-
+def output(number):
+    pass
    
 
 
