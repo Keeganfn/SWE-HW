@@ -11,7 +11,10 @@ def div4(number):
 
 
 def div100(number):
-    pass
+    if(number % 100 == 0):
+        return True
+    else:
+        return False
 
 
 if __name__ == "__main__":
