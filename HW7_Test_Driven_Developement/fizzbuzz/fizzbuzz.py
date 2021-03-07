@@ -16,8 +16,18 @@ def mult5(number):
         return False 
     
 def output(number):
-    pass
-   
+
+    if(mult3(number) == True and mult5(number) == True):
+        return "FizzBuzz"
+
+    elif(mult3(number) == True):
+        return "Fizz"
+
+    elif(mult5(number) == True):
+        return "Buzz"
+
+    else:
+        return number
 
 
 
