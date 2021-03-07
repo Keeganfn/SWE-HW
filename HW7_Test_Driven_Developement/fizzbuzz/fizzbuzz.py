@@ -8,7 +8,15 @@ def mult3(number):
         return True 
     else:
         return False 
+ 
+def mult5(number):
+    if(number % 5 == 0):
+        return True 
+    else:
+        return False 
     
+
+   
 
 
 
