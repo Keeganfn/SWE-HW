@@ -33,4 +33,6 @@ def output(number):
 
 
 if __name__ == "__main__":
-    pass    
+    
+    for i in range(1, 101):
+        print(output(i))
