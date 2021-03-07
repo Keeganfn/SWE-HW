@@ -4,12 +4,14 @@
 #tested with python3 and linux
 
 def mult3(number):
-    pass
+    if(number % 3 == 0):
+        return True 
+    else:
+        return False 
+    
 
 
 
 
 if __name__ == "__main__":
-    print("hello")
-
-    
+    pass    
