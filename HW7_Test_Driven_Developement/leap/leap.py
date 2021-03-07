@@ -10,6 +10,8 @@ def div4(number):
         return False
 
 
+def div100(number):
+    pass
 
 
 if __name__ == "__main__":
