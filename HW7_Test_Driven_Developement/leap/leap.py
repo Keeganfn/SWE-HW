@@ -22,7 +22,27 @@ def div400(number):
     else:
         return False
 
-
+def leap_check(number):
+    if(div4(number) == True):
+        if(div100(number) == True):
+            if(div400(number) == True):
+                return True
+            
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
 
 if __name__ == "__main__":
-   pass 
+
+  
+    year = int(input("Please enter your year: "))
+    result = leap_check(year)
+
+    if(result == True):
+        print("It is a leap year")
+    else:
+        print("It isnt a leap year")
+
