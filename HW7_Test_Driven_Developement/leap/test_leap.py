@@ -17,6 +17,14 @@ class TestFunctions(unittest.TestCase):
         assert leap.div400(5) == False
         pass
 
+    def test_leap_check(self):
+        assert leap.leap_check(400) == True
+        assert leap.leap_check(2024) == True
+        assert leap.leap_check(3) == False
+        assert leap.leap_check(300) == False
+        pass
+
+
 
 
 if __name__ == '__main__':
